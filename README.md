@@ -1,5 +1,7 @@
 # react-native-keyboard-aware-scroll-view
 
+This fork was made to fix an issue where keyboardWillShow and keyboardDidShowEvents fired alongisde keyboardWillHide incorrectly and caused inaccurate scrolling when dismissing the keyboard. This implements a workaround that avoids that.
+
 <p>
 <img src="https://travis-ci.org/APSL/react-native-keyboard-aware-scroll-view.svg?branch=master" />
 <img src="https://img.shields.io/npm/dm/react-native-keyboard-aware-scroll-view.svg" />
